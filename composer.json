@@ -1,0 +1,34 @@
+{
+    "name": "caticons/contact-us-icon",
+    "description": "This Plugin allows to add/update icons for Categories and Subcategories.",
+    "version": "v1.0.0",
+    "type": "shopware-platform-plugin",
+    "license": "Proprietary",
+    "authors": [
+        {
+            "name": "Shopware Solution"
+        }
+    ],
+    "require": {
+        "shopware/core": "*",
+        "shopware/storefront": "*"
+
+    },
+    "extra": {
+        "shopware-plugin-class": "caticons\\Ace360CategoryIcons\\Ace360CategoryIcons",
+        "label": {
+            "de-DE": "Category Icons",
+            "en-GB": "Category Icons"
+        },
+        "description": {
+            "de-DE": "Mit dem Plugin für Kategoriesymbole können Sie Ihren Shopware-Kategorien und Unterkategorien Symbole hinzufügen.",
+            "en-GB": "Category Icons plugin is allow to add icons to your Shopware Categories."
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "caticons\\Ace360CategoryIcons\\": "src/"
+        }
+    }
+
+}
